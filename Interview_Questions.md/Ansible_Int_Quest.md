@@ -1,20 +1,20 @@
-
+Ansible_Int_Quest
 # Mastering Ansible: Top 15 Interview Questions & Answers
-🔹 Question 1: What is Ansible, and what problem does it solve?
-🔹 Question 2: Explain the difference between Ansible and other configuration management tools like Puppet and Chef.
-🔹 Question 3: What is an Ansible Playbook?
-🔹 Question 4: How do you define inventory in Ansible?
-🔹 Question 5: Explain the concept of idempotence in Ansible.
-🔹 Question 6: What are Ansible Roles, and how do you use them?
-🔹 Question 7: Explain the difference between Ansible ad-hoc commands and playbooks.
-🔹 Question 8: How do you handle sensitive data like passwords in Ansible?
-🔹 Question 9: Explain the purpose of Ansible Galaxy.
-🔹 Question 10: What is Ansible Tower, and how does it enhance Ansible's capabilities?
-🔹 Question 11: How do you debug Ansible playbooks and tasks?
-🔹 Question 12: Explain the concept of Ansible Facts.
-🔹 Question 13: How do you handle error handling and recovery in Ansible playbooks?
-🔹 Question 14: What is Ansible Tower's role-based access control (RBAC) feature, and why is it important?
-🔹 Question 15: Explain how you can integrate Ansible with other tools and technologies.
+1. What is Ansible, and what problem does it solve?
+2. Explain the difference between Ansible and other configuration management tools like Puppet and Chef.
+3. What is an Ansible Playbook?
+4. How do you define inventory in Ansible?
+5. Explain the concept of idempotence in Ansible.
+6. What are Ansible Roles, and how do you use them?
+7. Explain the difference between Ansible ad-hoc commands and playbooks.
+8. How do you handle sensitive data like passwords in Ansible?
+9. Explain the purpose of Ansible Galaxy. 
+10. What is Ansible Tower, and how does it enhance Ansible's capabilities?
+11. How do you debug Ansible playbooks and tasks?
+12. Explain the concept of Ansible Facts.
+13. How do you handle error handling and recovery in Ansible playbooks?
+14. What is Ansible Tower's role-based access control (RBAC) feature, and why is it important?
+15. Explain how you can integrate Ansible with other tools and technologies.
 
 
 # Mastering Advanced Ansible: Expert Interview Questions & Answers
