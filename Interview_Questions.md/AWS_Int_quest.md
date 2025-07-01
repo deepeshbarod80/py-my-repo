@@ -1,6 +1,6 @@
 
-### AWS Common:
-# AWS Basics Interview Questions:
+# AWS Common:
+## AWS Basics Interview Questions:
 1. What is Amazon VPC, and why is it important?
 2. Explain the difference between a public and private subnet in a VPC.
 3. How do you connect an on-premises data center to an AWS VPC?
@@ -17,7 +17,7 @@
 14. What is the difference between NAT Instances and NAT Gateways?
 15. How does AWS support IPv6 in networking?
 
-# AWS Advanced Interview Questions:
+## AWS Advanced Interview Questions:
 1. How does AWS Auto Scaling handle unpredictable traffic and sudden changes in demand?
 2. What is AWS Global Accelerator, and how does it improve performance?
 3. Explain AWS Lambda@Edge and its primary use cases.
@@ -34,7 +34,7 @@
 14. Explain how AWS Direct Connect enhances network performance and security for enterprises.
 15. What is AWS Step Functions, and how does it improve workflow orchestration in serverless applications?
 
-# AWS Scenario-Based Interview Questions & Answers
+## AWS Scenario-Based Interview Questions & Answers
 1. You are tasked with designing a scalable web application on AWS to handle fluctuating traffic. What services and architecture would you use to ensure both availability and cost-efficiency?
 2. Your application needs to process large volumes of data and convert it into various formats for downstream services. What AWS services would you use to automate and scale this process?
 3. Your organization has decided to use AWS for disaster recovery but wants to minimize costs. What disaster recovery architecture would you recommend?
@@ -55,8 +55,8 @@
 ---
 
 
-### AWS Networking
-#  VPC Interview Questions:
+# AWS Networking
+## VPC Interview Questions:
 1. What is Amazon VPC, and why is it used?
 2. What is the significance of CIDR notation in VPC?
 3. How are subnets used in Amazon VPC?
@@ -68,7 +68,7 @@
 9. What is a VPC endpoint, and why would you use it?
 10. How do you troubleshoot connectivity issues in a VPC?
 
-# VPC Scenario Based Interview Questions:
+## VPC Scenario Based Interview Questions:
 1. You need to deploy a high-availability web application across multiple Availability Zones (AZs). How would you configure the VPC?
 2. Your company wants to restrict access to a VPC to a specific set of IP addresses. How can you accomplish this?
 3. You need secure, encrypted communication between your on-premises network and AWS VPC. What options are available?
@@ -85,7 +85,7 @@
 14. You need to enable cross-account access for resources in a VPC. What would you use?
 15. How would you migrate an on-premises application to AWS while maintaining the same IP range in the VPC?
 
-#  AWS Networking Scenario Based Interview Questions:
+## AWS Networking Scenario Based Interview Questions:
 1. What is Amazon VPC, and why is it important?
 2. Explain the difference between a public and private subnet in a VPC.
 3. How do you connect an on-premises data center to an AWS VPC?
@@ -102,7 +102,7 @@
 14. What is the difference between NAT Instances and NAT Gateways?
 15. How does AWS support IPv6 in networking?
 
-# AWS Route53 Scenario Based Interview Questions:
+## AWS Route53 Scenario Based Interview Questions:
 1. You need to configure a website to be highly available across multiple AWS regions. How would you use Route 53 to achieve this?
 2. Your company’s website has both static and dynamic content. How would you use Route 53 to direct traffic to these different types of content?
 3. A client needs a backup website in case the primary site goes down. How would you configure Route 53 to failover to the backup website?
@@ -114,7 +114,7 @@
 9. A website serves content to both US and EU users, and each region requires a specific version of the site. How would you configure Route 53?
 10. You are running a web application with spiky traffic, and you need DNS to support load balancing across multiple endpoints. How would you configure Route 53?
 
-#  AWS CloudFront Innterview Questions:
+##  AWS CloudFront Innterview Questions:
 1. What is AWS CloudFront?
 2. How does CloudFront enhance the performance of a website or application?
 3. What is the purpose of an Origin in CloudFront?
@@ -130,8 +130,8 @@
 ---
 
 
-### AWS Security:
-# AWS Security Interview Questions:
+# AWS Security:
+## AWS Security Interview Questions:
 1. What is AWS Identity and Access Management (IAM)? Why is it important?
 2. What is the principle of least privilege? How does AWS implement it?
 3. How does AWS secure data in transit and at rest?
@@ -152,8 +152,8 @@
 ---
 
 
-### IAM Interview Questions:
-# AWS IAM Basic Interview Questions:
+# IAM Interview Questions:
+## AWS IAM Basic Interview Questions:
 1. What is AWS IAM and why is it important?
 2. What are IAM users and groups?
 3. Explain IAM roles and their benefits.
@@ -165,7 +165,7 @@
 9. Explain cross-account IAM roles and their use cases.
 10. How can you track changes and monitor AWS IAM activities?
 
-# AWS IAM Scenario Based Interview Questions:
+## AWS IAM Scenario Based Interview Questions:
 1. You want to allow your team to have access to Amazon S3, but you want to restrict their ability to delete objects. How do you implement this?
 2. You need to grant an external consultant temporary access to a particular EC2 instance without sharing any long-term credentials. How would you do this?
 3. You have an IAM user who accidentally deleted some important data from your S3 bucket. How can you set up a policy to prevent users from deleting objects in the future?
@@ -185,8 +185,8 @@
 ---
 
 
-### AWS S3:
-# S3 Interview questions
+# AWS S3:
+## S3 Interview questions
 1. What is Amazon S3?
 2. What are the storage classes in Amazon S3?
 3. How is data organized in Amazon S3?.
@@ -198,14 +198,14 @@
 9. Can you use Amazon S3 to host a static website?
 10. How can you transfer data into and out of Amazon S3?
 
-# AWS S3 Scenario Based Interview Questions:
+## AWS S3 Scenario Based Interview Questions:
 
 
 ---
 
 
-### AWS Cloudwatch:
-# Cloudwatch Interview questions:
+# AWS Cloudwatch:
+## Cloudwatch Interview questions:
 1. What is AWS CloudWatch, and what purpose does it serve?
 2. How can you collect custom metrics in AWS CloudWatch?
 3. Explain the difference between basic and detailed monitoring in CloudWatch.
@@ -220,8 +220,8 @@
 ----
 
 
-### AWS Load Balancing & Auto Scaling with Cluster:
-# Auto Scaling Interview questions:
+# AWS Load Balancing & Auto Scaling with Cluster:
+## Auto Scaling Interview questions:
 1. What is AWS Auto Scaling, and how does it work?
 2. Explain the difference between scaling out and scaling in.
 3. What are the types of scaling policies in AWS Auto Scaling?
@@ -233,7 +233,7 @@
 9. What is the purpose of the Desired Capacity parameter in an Auto Scaling group?
 10. How does Auto Scaling work in conjunction with AWS Elastic Load Balancers (ELB)?
 
-# ALB (Application Load Balancer) Interview questions:
+## ALB (Application Load Balancer) Interview questions:
 1. What is the purpose of an Elastic Load Balancer (ELB) in AWS?
 2. What are the types of Elastic Load Balancers in AWS?
 3. How does an Application Load Balancer (ALB) differ from a Network Load Balancer (NLB)?
@@ -248,8 +248,8 @@
 ---
 
 
-### AWS Lambda:
-# AWS Lambda Interview Questions:
+# AWS Lambda:
+## AWS Lambda Interview Questions:
 1. What is AWS Lambda?
 2. How does AWS Lambda work?
 3. What is the maximum execution time for an AWS Lambda function?
@@ -261,7 +261,7 @@
 9. Can AWS Lambda functions access resources inside a VPC?
 10. What is the cold start issue in AWS Lambda? How can it be mitigated?
 
-# AWS Lambda Scenario Based Interview questions:
+## AWS Lambda Scenario Based Interview questions:
 1. Suppose you have a requirement to process files as they are uploaded to an S3 bucket. How would you use AWS Lambda to achieve this?
 2. How would you optimize an AWS Lambda function if cold start times are impacting performance?
 3. Your application experiences unpredictable, spiky traffic patterns. How would you ensure AWS Lambda can handle this?
@@ -277,8 +277,8 @@
 ---
 
 
-### AWS Elastic Compute:
-# AWS ECS Interview Questions:
+# AWS Elastic Compute:
+## AWS ECS Interview Questions:
 1. What is AWS ECS, and how does it differ from other container orchestration services?
 2. What is a task definition in AWS ECS?
 3. Explain the difference between a task and a service in AWS ECS.
@@ -290,7 +290,7 @@
 9. What is ECS Auto Scaling, and how does it work?
 10. How can you achieve high availability in ECS services?
 
-# AWS ECS Scenario Based Interview Questions:
+## AWS ECS Scenario Based Interview Questions:
 1. You need to deploy a Docker application in ECS but want to minimize costs by sharing instances between multiple tasks. Which ECS launch type would you use and why?
 2. You are running a service on ECS Fargate, and your application is experiencing high network latency. How would you troubleshoot and optimize network performance?
 3. You need to deploy a service on ECS and ensure zero downtime during deployments. How would you configure this?
@@ -302,7 +302,7 @@
 9. Your ECS service has been configured with an Application Load Balancer (ALB), but some health checks are failing. What steps would you take to diagnose and resolve this issue?
 10. You are running an ECS service with Fargate, and you need to ensure that specific tasks run on a periodic schedule. How would you set this up?
 
-# AWS EKS Interview Questions:
+## AWS EKS Interview Questions:
 1. What is AWS EKS, and how does it simplify Kubernetes deployment?
 2. How does EKS differ from self-managed Kubernetes clusters on AWS?
 3. What is a Kubernetes cluster, and how is it structured in EKS?
@@ -314,7 +314,7 @@
 9. How does EKS handle updates and patches for the Kubernetes control plane?
 10. What is the purpose of the Amazon EKS optimized AMI for worker nodes?
 
-# AWS EKS Scenario Based Interview Questions:
+## AWS EKS Scenario Based Interview Questions:
 1. Your team wants to migrate a legacy application to EKS. The application isn’t containerized and has stateful components. How would you handle this migration to EKS?
 2. You’re running multiple EKS clusters for different environments (e.g., dev, staging, production) and need a way to manage them effectively. How would you set this up?
 3. Your application on EKS is experiencing a high number of failed requests and errors. What steps would you take to troubleshoot this?
@@ -326,7 +326,7 @@
 9. You notice that a Pod in your EKS cluster is in a "CrashLoopBackOff" state. What steps would you take to diagnose and fix the issue?
 10. Your EKS cluster is experiencing CPU throttling issues on certain workloads. How would you resolve this? 
 
-# AWS EC2 Interview Questions:
+## AWS EC2 Interview Questions:
 1. What is the default limit on the number of instances you can launch in an AWS region?
 2. How can you access your Linux-based EC2 instance if you lose the private key?
 3. What is the use of Amazon Machine Images (AMIs) for EC2 instances?
@@ -338,7 +338,7 @@
 9. What is the significance of an Elastic Network Interface (ENI)?
 10. Can you attach an IAM role to an existing EC2 instance?
 
-#  AWS EC2 Scenario Based Interview Questions:
+##  AWS EC2 Scenario Based Interview Questions:
 1. How would you back up and recover an EC2 instance with minimal downtime?
 2. You need to log and monitor system-level metrics (e.g., memory and disk usage) from an EC2 instance. How would you set this up?
 3. You need to move an EC2 instance from one AWS region to another. How would you do it?
@@ -359,8 +359,8 @@
 ---
 
 
-### Master AWS Messaging Services
-# AWS SNS & SQS Interview Questions
+# Master AWS Messaging Services
+## AWS SNS & SQS Interview Questions
 1. What is AWS SNS?
 2. How does SNS differ from SQS?
 3. What are Topics in SNS?
