@@ -374,8 +374,8 @@
 
 ---
 
-### AWS Database:
-# AWS RDS Interview Questions
+# AWS Database:
+## AWS RDS Interview Questions
 1. What is AWS RDS?
 2. How does AWS RDS handle backups?
 3. Can you change the DB instance class of a running RDS instance?
@@ -387,7 +387,7 @@
 9. What is the purpose of parameter groups in RDS?
 10. How can you scale the storage capacity of an RDS instance?
 
-# AWS DynamoDB Interview Questions
+## AWS DynamoDB Interview Questions
 1. What is Amazon DynamoDB?
 2. How does DynamoDB ensure high availability and fault tolerance?
 3. What are the key components of DynamoDB?
