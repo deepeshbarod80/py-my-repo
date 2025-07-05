@@ -1,4 +1,4 @@
-import boto3 # type: ignore
+import boto3                # type:igr
 from datetime import datetime
 
 s3 = boto3.client('s3')
